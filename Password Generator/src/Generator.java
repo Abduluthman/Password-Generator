@@ -19,7 +19,7 @@ public class Generator {
         int counter = 0;
         while(counter < sizeOfPassword){
             String[] StringArray = arrays[random.nextInt(arrays.length)];
-            String randomString = StringArray[random.nextInt(arrays.length)];
+            String randomString = StringArray[random.nextInt(StringArray.length)]; 
             password.append(randomString);
             counter++;
         }
