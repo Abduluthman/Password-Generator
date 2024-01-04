@@ -10,9 +10,22 @@ Easy Integration:
   Simple API for seamless integration into Java applications or as a standalone tool.
 User-Friendly Interface: 
   Clear and intuitive command-line interface for effortless use.
+Graphical Interface
+  Simple to use and easy to understand graphical interface for easy use.
 How to Use:
-Clone the Repository: git clone https://github.com/Abduluthman/password-generator.git
+Clone the Repository: git clone https://github.com/Abduluthman/Password-Generator.git
 
-Compile: javac PasswordGenerator.java
+Compile: javac Main.java
 
-Run: java PasswordGenerator 
+Run: java Main 
+
+
+**GUI Version**
+The GUI version provides a user-friendly interface using Java Swing. It includes text fields and checkboxes to specify the password length and character sets for generating passwords.
+
+To run the GUI version:
+$ javac PasswordGeneratorGUI.java  # Compile the GUI code
+$ java PasswordGeneratorGUI         # Execute the GUI-based password generator
+
+How to Contribute
+Feel free to contribute by enhancing the password generation algorithms, improving the user interface, or suggesting new features. Fork this repository, make your changes, and submit a pull request!
