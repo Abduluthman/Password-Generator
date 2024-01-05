@@ -29,6 +29,7 @@ $ javac PasswordGeneratorGUI.java  # Compile the GUI code
 $ java PasswordGeneratorGUI         # Execute the GUI-based password generator
 
 **GUI-Based Version (Updated Iteration)**
+Found in Password Generator 2 Folder.
 
 The GUI version provides a user-friendly interface using Java Swing. It includes text fields and checkboxes to specify the password length and character sets for generating passwords.
 
